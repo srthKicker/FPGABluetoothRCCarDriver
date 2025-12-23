@@ -125,3 +125,5 @@ The startup delay may need adjustment depending on the Bluetooth module used.
 
 Pin assignments will depend on your FPGA board and motor driver hardware.
 
+Unfortunately, the original test benches are also missing and must be recreated.
+
