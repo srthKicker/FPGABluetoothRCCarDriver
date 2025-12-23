@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/srth/GamerDisk/Apps/Vivado/RCCar/RCCar.sim/sim_1/impl/func/xsim/baudClk_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module baudClk
+INFO: [VRFC 10-311] analyzing module ctrlMotor
+INFO: [VRFC 10-311] analyzing module rstDriver
+INFO: [VRFC 10-311] analyzing module rxBit
+INFO: [VRFC 10-311] analyzing module sevenSegDriver
+INFO: [VRFC 10-311] analyzing module uart
+INFO: [VRFC 10-311] analyzing module glbl

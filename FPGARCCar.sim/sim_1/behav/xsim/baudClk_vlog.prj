@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../RCCar.srcs/sources_1/new/baudClk.sv" \
+"../../../../RCCar.srcs/sources_1/new/ctrlMotor.sv" \
+"../../../../RCCar.srcs/sources_1/new/rstDriver.sv" \
+"../../../../RCCar.srcs/sources_1/new/rxBit.sv" \
+"../../../../RCCar.srcs/sources_1/new/uart.sv" \
+"../../../../RCCar.srcs/sources_1/new/sevenSegDecoder.sv" \
+"../../../../RCCar.srcs/sources_1/new/sevenSegDriver.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

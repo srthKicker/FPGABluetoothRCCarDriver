@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu May  8 11:09:22 2025
+# Process ID         : 25434
+# Current directory  : /media/srth/GamerDisk/Apps/Vivado/RCCar/RCCar.runs/impl_1
+# Command line       : vivado -log uart.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source uart.tcl -notrace
+# Log file           : /media/srth/GamerDisk/Apps/Vivado/RCCar/RCCar.runs/impl_1/uart.vdi
+# Journal file       : /media/srth/GamerDisk/Apps/Vivado/RCCar/RCCar.runs/impl_1/vivado.jou
+# Running On         : srth-ThinkPadP50
+# Platform           : Linuxmint
+# Operating System   : Linux Mint 22.1
+# Processor Detail   : Intel(R) Core(TM) i7-6820HQ CPU @ 2.70GHz
+# CPU Frequency      : 3298.137 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16584 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 18732 MB
+# Available Virtual  : 9856 MB
+#-----------------------------------------------------------
+source uart.tcl -notrace

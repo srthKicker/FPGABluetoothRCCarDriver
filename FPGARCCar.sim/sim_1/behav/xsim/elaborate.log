@@ -1,0 +1,13 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /media/srth/GamerDisk/Vivado/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot baudClk_behav xil_defaultlib.baudClk xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3818] variable 'count' is driven by invalid combination of procedural drivers [/media/srth/GamerDisk/Apps/Vivado/RCCar/RCCar.srcs/sources_1/new/baudClk.sv:9]
+WARNING: [VRFC 10-2921] 'count' driven by this always_ff block should not be driven by any other process [/media/srth/GamerDisk/Apps/Vivado/RCCar/RCCar.srcs/sources_1/new/baudClk.sv:25]
+ERROR: [VRFC 10-3818] variable 'numBits' is driven by invalid combination of procedural drivers [/media/srth/GamerDisk/Apps/Vivado/RCCar/RCCar.srcs/sources_1/new/baudClk.sv:12]
+ERROR: [VRFC 10-3818] variable 'waiting' is driven by invalid combination of procedural drivers [/media/srth/GamerDisk/Apps/Vivado/RCCar/RCCar.srcs/sources_1/new/baudClk.sv:5]
+ERROR: [VRFC 10-3818] variable 'bodCk' is driven by invalid combination of procedural drivers [/media/srth/GamerDisk/Apps/Vivado/RCCar/RCCar.srcs/sources_1/new/baudClk.sv:4]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
