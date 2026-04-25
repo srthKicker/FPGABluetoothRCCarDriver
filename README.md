@@ -2,6 +2,8 @@
 
 This project implements a Bluetooth‑controlled RC car using an FPGA and a fully custom UART receiver, motor‑control finite‑state machine, and seven‑segment display system. The design receives serial data from a Bluetooth module, decodes it into motor commands, and displays the received byte in hexadecimal. The original constraints file for this project has unfortunately been lost.
 
+This branch uses VHDL instead of SystemVerilog to learn the basics of both languages
+
 Overview
 The system is built around a top‑level UART module that coordinates all communication, timing, and control logic. Incoming serial data is sampled at 9600 baud, assembled into an 8‑bit value, and used to update the motor control FSM. The same byte is also decoded and shown on a dual seven‑segment display for debugging and visibility.
 
