@@ -17,20 +17,19 @@ entity rxBit is
    );
 end rxBit;
 
-architecture Behavioral of rxBit is
+architecture rxBit_arch of rxBit is
     signal index : integer range 0 to 7 := 0;
 begin
 
-process(baudClk, rst) begin
-    if rst='1' then
-        index <= 0;
-        triggerFSM <= false;
-        receivedByte <= (others => 'U');
-    elsif rising_edge(baudClk) then
-        triggerFSM <= (index = 7); --When we're done rxing, update motors
-        receivedByte(index) <= inputBit;
-        index <= index + 1;
-    end if;
-end process;
-
-end Behavioral;
+    process(baudClk, rst) begin
+        if rst='1' then
+            index <= 0;
+            triggerFSM <= false;
+            receivedByte <= (others => 'U');
+        elsif rising_edge(baudClk) then
+            triggerFSM <= (index = 7); --When we're done rxing, update motors
+            receivedByte(index) <= inputBit;
+            index <= index + 1;
+        end if;
+    end process;
+end rxBit_arch;
